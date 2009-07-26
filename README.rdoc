@@ -1,0 +1,7 @@
+= gtranslate
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 Dmitry A. Ilyashevich. See LICENSE for details.
