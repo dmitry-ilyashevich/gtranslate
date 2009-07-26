@@ -5,11 +5,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "gtranslate"
-    gem.summary = %Q{TODO}
+    gem.summary = "Google Translate module"
     gem.email = "dmitry.ilyashevich@gmail.com"
     gem.homepage = "http://github.com/dmitry-ilyashevich/gtranslate"
     gem.authors = ["Dmitry A. Ilyashevich"]
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+    gem.add_dependency "json"
   end
 
 rescue LoadError
