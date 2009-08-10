@@ -50,7 +50,7 @@ module GTranslate
   end
 
   def tag(title, space = " ", lang = nil)
-    GTranslate.translate(title, 'en', lang).downcase.strip.gsub(/[^a-z\s]/, '').gsub(/\s+/, space.to_s)
+    GTranslate.translate(title, 'en', lang).downcase.strip.gsub(/[^a-z\d\s]/, '').gsub(/\s+/, space.to_s)
   end
 
   module_function :detect, :translate, :tag
